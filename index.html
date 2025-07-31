@@ -1,33 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Box Model</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        .content{
-            height: 423px;
-            width: 345px;
-            background: red;
-            /*margin: 14px;*/
-            /*margin: 4px 2px 6px 1px; */     /*for 4 sides: top-4px right-2px bottom-6px left-1px*/
-            margin: 4px 1px;      /* for 2 sides: top&bottom-4px left&right-1px */
-            padding: 13px;
-            border: 4px solid black;
-            /*border-width: 3px;
-            border-style: dashed;
-            border-color: cyan;*/
-            border-radius: 14px;
-        }
-    </style>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
 </head>
+
 <body>
-    <div class="content">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit quibusdam velit rerum, eveniet nihil tenetur cumque officiis eum aliquid ducimus tempora, unde accusantium hic voluptatibus repellendus veritatis, nesciunt sint quia placeat illo id? Ea.
-    </div>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="">
+            </div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" class="text" placeholder="Search for products, brands and more">
+                <button class="btn">Search</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="slider">
+                <img src="https://images.unsplash.com/photo-1614082242765-7c98ca0f3df3?fm" alt="">
+            </div>
+        </div>
+        <div class="card">
+            <h2>Join the cricket fun</h2>
+            <div class="card-item">
+                <img src="https://images.unsplash.com/photo-150x35?ecommerce" alt="">
+            </div>
+            <div class="items">
+                <p>tree items</p>
+            </div>
+        </div>
+    </main>
+    <footer class="flex-all-center">
+        <p>Copyright &copy; MyCart.com</p>
+    </footer>
 </body>
+
 </html>
